@@ -10,7 +10,7 @@ self.bits = [{"read": Pin(NEW_BIT_READ_PIN_NUMBER, Pin.IN), "write": Pin(NEW_BIT
 If you want to use example code on more bits, you  aslo need to add more leds.
 
 Example script uses capacitor RAM to count in binary.
-and shows current binary number on leds.
+And shows current binary number on leds.
 
 Instructions:
 1. Open schematics.png and build your circuit
