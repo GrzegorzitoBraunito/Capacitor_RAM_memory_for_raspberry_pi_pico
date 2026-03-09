@@ -14,3 +14,8 @@ Instructions:
 3. Download aslo example.py
 4. Export those scripts to your raspberry pi pico
 5. Run example.py
+
+Remember, if you are making your
+own script using my driver, you
+have to call refresh_bits() method in the
+fast loop to avoid data disappearing from capacitors.
