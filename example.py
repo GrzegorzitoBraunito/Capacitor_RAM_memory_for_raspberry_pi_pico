@@ -10,7 +10,7 @@ for l in leds:
     l.value(0)
 
 capacitor_ram = Capacitor_RAM()
-if len(leds) != len(capacitor_ram.bits)
+if len(leds) != len(capacitor_ram.bits):
     raise ValueError("the number of LEDs is not the same as the number of bit cells")
 
 def binary_count_on_ram():
