@@ -13,7 +13,7 @@ capacitor_ram = Capacitor_RAM()
 
 def binary_count_on_ram():
     readed_val = capacitor_ram.read()
-    for i in range(len(readed_val):
+    for i in range(len(readed_val)):
         leds[i].value(int(readed_val[i]))
             
     if int(readed_val, 2)+1 <= 3:
