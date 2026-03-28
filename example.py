@@ -2,7 +2,7 @@ from capacitor_ram import Capacitor_RAM
 from machine import Pin
 from time import ticks_ms
 
-COUNTER_DELAY = 250
+COUNTER_DELAY = 250 #[ms]
 counter_timer = ticks_ms()
 
 leds = [Pin(14, Pin.OUT), Pin(15, Pin.OUT)]
