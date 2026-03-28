@@ -10,6 +10,7 @@ for l in leds:
     l.value(0)
 
 capacitor_ram = Capacitor_RAM()
+if len(leds) != len(capacitor_ram.bits)
 
 def binary_count_on_ram():
     readed_val = capacitor_ram.read()
