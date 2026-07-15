@@ -1,5 +1,5 @@
 # Capacitor_RAM_memory_for_raspberry_pi_pico
-diy capacitor ram with driver writed in micropython for raspberry pi pico
+diy capacitor ram with driver written in micropython for raspberry pi pico
 
 This repo contains 2-bit RAM experimental electronics project. 
 But you can easily expand its capaticy by adding
